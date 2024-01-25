@@ -1,0 +1,14 @@
+#me {
+  border-radius: 50%;
+  box-shadow: 100px 0px 100px #0d6efd;
+}
+
+#click {
+  color: white;
+  text-decoration: overline;
+  font-weight: bold;
+}
+
+#footer {
+  background-color: rgb(241, 241, 241);
+}

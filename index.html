@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Oleksandr Tabala</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <section id="navbar">
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <span class="fs-4"><img src="./assets/images/person-circle.svg" alt="person in circle icon" height="40"> <b>Oleksandr Tabala</b></span>
+        </a>
+  
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="./assets/projects/resume/index.html" class="nav-link active" aria-current="page">My Resume</a></li>
+          <li class="nav-item"><a href="#hero" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#hero" class="nav-link">Contact Me</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#jumbotron" class="nav-link">More</a></li>
+        </ul>
+      </header>
+    </div>
+  </section>
+  <!-- Hero -->
+  <section id="hero">
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img id="me" src="./assets/images/me.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">A little bit about me...</h1>
+          <p class="lead">👋 Welcome to my digital space! I'm Oleksandr, a passionate 19-year-old programmer hailing from the vibrant city of Toronto. 🍁 Armed with a fervor for coding, I've embarked on a journey to demystify the world of Python and web development for enthusiasts of all ages.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="#projects"><button type="button" class="btn btn-primary btn-lg px-4 me-md-2">My Projects</button></a>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4" data-bs-toggle="modal" data-bs-target="#modalTour">Contact Me</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom">Here are some of my projects:</h2>
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col">
+          <div class="card card-cover h-10 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/images/tindog.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Tinder for Dogs :)</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <a id="click" href="./assets/projects/tindog/index.html">Click here!</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-10 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/images/mondrian.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mondrian CSS Painting</h3>
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <a id="click" href="./assets/projects/mondrian/index.html">Click here!</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./assets/images/grey.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">More projects coming soon...</h3>
+              <a id="click" href="./assets/projects/resume/index.html">But you can also check my resume HERE!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- Jumbotron -->
+  <section id="jumbotron">
+    <div class="m-0">
+      <div class="p-5 text-center bg-body-tertiary">
+        <div class="container py-5">
+          <h1 class="text-body-emphasis">Some additional information about me</h1>
+          <p class="col-lg-8 mx-auto lead">
+            I love ice skating, trying different foods from different parts of the world and making new friends. Life for me is like an exciting adventure, where every day is a new opportunity for discovery and inspiration. Let's create something unique together! ⛸🌍🍜
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <section id="footer">
+    <div class="container">
+      <footer class="py-3">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#hero" class="nav-link px-2 text-body-secondary">About</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link px-2 text-body-secondary">Projects</a></li>
+          <li class="nav-item"><a href="#hero" class="nav-link px-2 text-body-secondary">Contact Me</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© Oleksandr Tabala</p>
+      </footer>
+    </div>
+  </section>
+ 
+  <!-- Modal -->
+  <div class="modal fade" id="modalTour" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content rounded-4 shadow">
+        <div class="modal-header">
+          <h2 class="fw-bold mb-0">Contact Me!</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-5">
+          <ul class="d-grid gap-4 mb-5 list-unstyled small">
+            <li class="d-flex gap-4">
+              <img src="./assets/images/envelope.svg" alt="envelope icon" height="50">
+              <div>
+                <h5 class="mb-0">E-Mail</h5>
+                sandrotabala@gmail.com
+              </div>
+            </li>
+            <li class="d-flex gap-4">
+              <img src="./assets/images/telephone.svg" alt="phone icon" height="50">
+              <div>
+                <h5 class="mb-0">Mobile</h5>
+                +1(416)272-6121
+              </div>
+            </li>
+            <li class="d-flex gap-4">
+              <img src="./assets/images/people.svg" alt="two people icon" height="50">
+              <div>
+                <h5 class="mb-0">Social Networks</h5>
+                <a href="https://www.linkedin.com/in/oleksandr-tabala-642a682a5/">LinkedIn</a>, <a href="https://www.facebook.com/sandrotabala">Facebook</a>, <a href="https://www.instagram.com/g.u.r.d.z.h.i.b.e.k/">Instagram</a>
+              </div>
+            </li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-primary w-100" data-bs-dismiss="modal">Great, thanks!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
